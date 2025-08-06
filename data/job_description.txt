@@ -1,0 +1,1 @@
+We are looking for a Software Engineer with experience in Python, Natural Language Processing (NLP), and machine learning. Responsibilities include developing backend systems, text analysis tools, and deploying models to production. Familiarity with Flask and REST APIs is preferred.
