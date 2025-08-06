@@ -1,5 +1,5 @@
 import os
-import fitz 
+import fitz  # PyMuPDF
 import docx
 
 def extract_text_from_pdf(file_path):
@@ -14,9 +14,12 @@ def extract_text_from_docx(file_path):
     return "\n".join([para.text for para in doc.paragraphs])
 
 def extract_text(file_path):
-    if file_path.endswith('.pdf'):
+    # Ensure we always check the file name
+    ext = os.path.splitext(file_path)[1].lower()
+    
+    if ext == '.pdf':
         return extract_text_from_pdf(file_path)
-    elif file_path.endswith('.docx'):
+    elif ext == '.docx':
         return extract_text_from_docx(file_path)
     else:
         raise ValueError("Unsupported file format: only .pdf and .docx allowed")
