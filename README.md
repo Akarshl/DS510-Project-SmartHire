@@ -13,7 +13,7 @@ An intelligent resume screening system that ranks resumes based on their relevan
 
 # Project Structure
 
-├── data/&emsp;&emsp;&emsp;&emsp;← Dataset files (e.g., UpdatedResumeDataSet.csv)\
+├── data/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;← Dataset files (e.g., UpdatedResumeDataSet.csv)\
 ├── output/&emsp;&emsp;&emsp;&ensp;← Parsed JSON outputs\
 ├── src/&emsp;&emsp;&emsp;&emsp;← Source code\
 │   ├── csv_resume_parser.py&emsp;← Resume parser for CSV format\
