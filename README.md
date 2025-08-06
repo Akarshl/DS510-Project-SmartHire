@@ -14,14 +14,14 @@ An intelligent resume screening system that ranks resumes based on their relevan
 📁 Project Structure
 
 .
-├── data/                      ← Dataset files (e.g., UpdatedResumeDataSet.csv)
-├── output/                    ← Parsed JSON outputs
-├── src/                       ← Source code
-│   ├── csv_resume_parser.py   ← Resume parser for CSV format
-│   ├── tfidf_ranker.py        ← TF-IDF based similarity ranking
-│   ├── bert_ranker.py         ← Sentence-BERT based ranking (WIP)
-├── app.py                     ← (Optional) Streamlit/Flask UI
-├── requirements.txt           ← Python dependencies
+├── data/                      ← Dataset files (e.g., UpdatedResumeDataSet.csv)\
+├── output/                    ← Parsed JSON outputs\
+├── src/                       ← Source code\
+│   ├── csv_resume_parser.py   ← Resume parser for CSV format\
+│   ├── tfidf_ranker.py        ← TF-IDF based similarity ranking\
+│   ├── bert_ranker.py         ← Sentence-BERT based ranking (WIP)\
+├── app.py                     ← (Optional) Streamlit/Flask UI\
+├── requirements.txt           ← Python dependencies\
 └── README.md
 
 🧪 Tech Stack
