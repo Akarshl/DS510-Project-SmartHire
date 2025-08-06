@@ -20,7 +20,7 @@ An intelligent resume screening system that ranks resumes based on their relevan
 │   ├── tfidf_ranker.py&emsp;&emsp;&emsp;&emsp;&ensp;← TF-IDF based similarity ranking\
 │   ├── bert_ranker.py&emsp;&emsp;&emsp;&emsp;&ensp;← Sentence-BERT based ranking (WIP)\
 ├── app.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;← (Optional) Streamlit/Flask UI\
-├── requirements.txt&emsp;&emsp;← Python dependencies\
+├── requirements.txt&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;← Python dependencies\
 └── README.md
 
 # Tech Stack
