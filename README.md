@@ -18,7 +18,7 @@ An intelligent resume screening system that ranks resumes based on their relevan
 ├── src/&emsp;&emsp;&emsp;&emsp;← Source code\
 │   ├── csv_resume_parser.py&emsp;← Resume parser for CSV format\
 │   ├── tfidf_ranker.py&emsp;&emsp;&emsp;&emsp;&ensp;← TF-IDF based similarity ranking\
-│   ├── bert_ranker.py&emsp;&emsp;← Sentence-BERT based ranking (WIP)\
+│   ├── bert_ranker.py&emsp;&emsp;&emsp;&emsp;&ensp;← Sentence-BERT based ranking (WIP)\
 ├── app.py&emsp;&emsp;&emsp;&emsp;← (Optional) Streamlit/Flask UI\
 ├── requirements.txt&emsp;&emsp;← Python dependencies\
 └── README.md
